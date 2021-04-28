@@ -3,7 +3,8 @@ const { Service } = require('feathers-nedb');
 const crypto = require('crypto');
 
 // The Gravatar image service
-const gravatarUrl = 'https://s.gravatar.com/avatar';
+const gravatarUrl = 'https://avataaars.io/?avatarStyle=Circle&topType=ShortHairSides&accessoriesType=Round&hairColor=PastelPink&facialHairType=MoustacheMagnum&facialHairColor=Black&clotheType=Overall&clotheColor=Blue03&eyeType=Squint&eyebrowType=Default&mouthType=Vomit&skinColor=Yellow';
+
 // The size query. Our chat needs 60px images
 const query = 's=60';
 // Returns the Gravatar image for an email
